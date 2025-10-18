@@ -56,7 +56,7 @@ export function ContactSection() {
               </div>
               <div>
                 <h4 className="text-xl font-semibold mb-2 text-[#E0E0E0]">Phone</h4>
-                <p className="text-[#E0E0E0]/70 font-[family-name:var(--font-inter)]">+1 (555) 123-4567</p>
+                <p className="text-[#E0E0E0]/70 font-[family-name:var(--font-inter)]">+1 513-398-4635</p>
               </div>
             </div>
 

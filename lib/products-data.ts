@@ -19,6 +19,26 @@ export const products = [
       case: "Nylon soft compression",
       warranty: "1 year",
     },
+    customerReviews: [
+      {
+        name: "Marcus Thompson",
+        rating: 5,
+        date: "2 weeks ago",
+        comment: "Absolutely incredible precision! This knife has transformed my work quality.",
+      },
+      {
+        name: "Olivia Patel",
+        rating: 5,
+        date: "1 month ago",
+        comment: "Best investment I've made for my craft. The build quality is outstanding.",
+      },
+      {
+        name: "Derek Anderson",
+        rating: 4,
+        date: "3 weeks ago",
+        comment: "Great product overall. Slightly pricey but worth it for the quality.",
+      },
+    ],
   },
   {
     id: 2,
@@ -40,6 +60,26 @@ export const products = [
       case: "Plastic storage case",
       warranty: "1 year",
     },
+    customerReviews: [
+      {
+        name: "Jennifer Wu",
+        rating: 5,
+        date: "1 week ago",
+        comment: "Perfect for detailed modeling work. The variety of blades is impressive!",
+      },
+      {
+        name: "Robert Martinez",
+        rating: 4,
+        date: "2 weeks ago",
+        comment: "Solid set for the price. Handles feel comfortable and secure.",
+      },
+      {
+        name: "Sophia Kim",
+        rating: 5,
+        date: "3 weeks ago",
+        comment: "Exceeded my expectations! Great for scrapbooking and paper crafts.",
+      },
+    ],
   },
   {
     id: 3,
@@ -61,6 +101,26 @@ export const products = [
       length: "14cm",
       warranty: "1 year",
     },
+    customerReviews: [
+      {
+        name: "Michael Foster",
+        rating: 4,
+        date: "5 days ago",
+        comment: "The rubber grip is very comfortable for long sessions. Highly recommend!",
+      },
+      {
+        name: "Emma Johnson",
+        rating: 5,
+        date: "2 weeks ago",
+        comment: "Anti-roll design is genius! No more knives rolling off my desk.",
+      },
+      {
+        name: "David Lee",
+        rating: 4,
+        date: "1 month ago",
+        comment: "Good value for money. Blade storage is a nice touch.",
+      },
+    ],
   },
   {
     id: 4,
@@ -82,6 +142,26 @@ export const products = [
       length: "20cm",
       warranty: "1 year",
     },
+    customerReviews: [
+      {
+        name: "Rachel Green",
+        rating: 5,
+        date: "4 days ago",
+        comment: "Makes angle cuts so easy! Perfect for my trim work projects.",
+      },
+      {
+        name: "Thomas Brown",
+        rating: 5,
+        date: "1 week ago",
+        comment: "The built-in protractor is incredibly helpful for precision work.",
+      },
+      {
+        name: "Lisa Chen",
+        rating: 4,
+        date: "2 weeks ago",
+        comment: "Sturdy construction and the safety lock gives me peace of mind.",
+      },
+    ],
   },
   {
     id: 5,
@@ -103,6 +183,26 @@ export const products = [
       case: "Plastic storage",
       warranty: "2 years",
     },
+    customerReviews: [
+      {
+        name: "Kevin O'Brien",
+        rating: 5,
+        date: "3 days ago",
+        comment: "Everything I need for quilting in one set. The mat is excellent quality!",
+      },
+      {
+        name: "Amanda White",
+        rating: 4,
+        date: "1 week ago",
+        comment: "Great starter kit for fabric cutting. The ruler measurements are clear.",
+      },
+      {
+        name: "Jason Park",
+        rating: 5,
+        date: "2 weeks ago",
+        comment: "The rotary blade cuts through multiple layers effortlessly. Love it!",
+      },
+    ],
   },
   {
     id: 6,
@@ -124,6 +224,26 @@ export const products = [
       case: "Plastic storage case",
       warranty: "1 year",
     },
+    customerReviews: [
+      {
+        name: "Nicole Davis",
+        rating: 5,
+        date: "6 days ago",
+        comment: "Unbeatable value! So many blades and tools for such a low price.",
+      },
+      {
+        name: "Christopher Taylor",
+        rating: 4,
+        date: "1 week ago",
+        comment: "Perfect for beginners. The storage case keeps everything organized.",
+      },
+      {
+        name: "Michelle Rodriguez",
+        rating: 5,
+        date: "3 weeks ago",
+        comment: "The tweezers are surprisingly useful. Great all-around hobby set!",
+      },
+    ],
   },
   {
     id: 7,
@@ -145,6 +265,26 @@ export const products = [
       case: "Plastic storage",
       warranty: "1 year",
     },
+    customerReviews: [
+      {
+        name: "Brandon Smith",
+        rating: 5,
+        date: "2 days ago",
+        comment: "100 blades will last me years! The knives feel solid and well-made.",
+      },
+      {
+        name: "Ashley Wilson",
+        rating: 4,
+        date: "1 week ago",
+        comment: "Great for warehouse work. Cuts through cardboard like butter.",
+      },
+      {
+        name: "Daniel Garcia",
+        rating: 5,
+        date: "2 weeks ago",
+        comment: "Retractable mechanism is smooth. Very happy with this purchase!",
+      },
+    ],
   },
   {
     id: 8,
@@ -166,6 +306,26 @@ export const products = [
       length: "25cm",
       warranty: "2 years",
     },
+    customerReviews: [
+      {
+        name: "Victoria Moore",
+        rating: 5,
+        date: "5 days ago",
+        comment: "Sharp out of the box! The pakkawood handle feels premium and balanced.",
+      },
+      {
+        name: "Ryan Jackson",
+        rating: 5,
+        date: "1 week ago",
+        comment: "Perfect size for everyday kitchen tasks. Stays sharp after months of use.",
+      },
+      {
+        name: "Samantha Miller",
+        rating: 4,
+        date: "3 weeks ago",
+        comment: "Beautiful knife with excellent craftsmanship. Worth every penny!",
+      },
+    ],
   },
   {
     id: 9,
@@ -187,26 +347,25 @@ export const products = [
       length: "16cm",
       warranty: "1 year",
     },
-  },
-]
-
-export const customerReviews = [
-  {
-    name: "Sarah Mitchell",
-    rating: 5,
-    date: "2 weeks ago",
-    comment: "Absolutely incredible precision! This knife has transformed my work quality.",
-  },
-  {
-    name: "James Chen",
-    rating: 5,
-    date: "1 month ago",
-    comment: "Best investment I've made for my craft. The build quality is outstanding.",
-  },
-  {
-    name: "Emily Rodriguez",
-    rating: 4,
-    date: "3 weeks ago",
-    comment: "Great product overall. Slightly pricey but worth it for the quality.",
+    customerReviews: [
+      {
+        name: "Nathan Harris",
+        rating: 5,
+        date: "1 week ago",
+        comment: "Perfect for my greenhouse! Having 12 pruners means I always have a clean one ready.",
+      },
+      {
+        name: "Rebecca Turner",
+        rating: 4,
+        date: "2 weeks ago",
+        comment: "Sharp and precise cuts. Great value for a 12-pack!",
+      },
+      {
+        name: "Alex Thompson",
+        rating: 5,
+        date: "1 month ago",
+        comment: "Lightweight but sturdy. Makes trimming my plants so much easier!",
+      },
+    ],
   },
 ]

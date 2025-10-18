@@ -4,7 +4,7 @@ import { CustomCursor } from "@/components/custom-cursor"
 import { Star, Check, ShoppingCart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { products, customerReviews } from "@/lib/products-data"
+import { products } from "@/lib/products-data"
 
 export default function ProductReviewPage({ params }: { params: { slug: string } }) {
   const product = products.find((p) => p.slug === params.slug)
@@ -115,7 +115,7 @@ export default function ProductReviewPage({ params }: { params: { slug: string }
           <div>
             <h2 className="text-3xl font-bold text-foreground mb-8">Customer Reviews</h2>
             <div className="space-y-6">
-              {customerReviews.map((review, index) => (
+              {product.customerReviews.map((review, index) => (
                 <Card key={index} className="p-6 bg-card border-border">
                   <div className="flex items-center justify-between mb-4">
                     <div>
