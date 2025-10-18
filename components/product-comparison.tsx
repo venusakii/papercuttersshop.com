@@ -66,7 +66,7 @@ export function ProductComparison() {
                     onMouseLeave={() => setHoveredColumn(null)}
                   >
                     <div className="text-2xl font-bold text-[#E0E0E0] mb-2">{product.name}</div>
-                    <div className="text-[#FF5F1F] text-xl font-semibold">{product.price}</div>
+                    
                   </th>
                 ))}
               </tr>

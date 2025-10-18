@@ -20,53 +20,10 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#E0E0E0]">Links</h3>
-            <ul className="space-y-2 font-[family-name:var(--font-inter)]">
-              <li>
-                <a href="#" className="text-[#E0E0E0]/70 hover:text-[#FF5F1F] transition-colors">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-[#E0E0E0]/70 hover:text-[#FF5F1F] transition-colors">
-                  Catalog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-[#E0E0E0]/70 hover:text-[#FF5F1F] transition-colors">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-[#E0E0E0]/70 hover:text-[#FF5F1F] transition-colors">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
+          
 
           {/* Legal */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-[#E0E0E0]">Legal</h3>
-            <ul className="space-y-2 font-[family-name:var(--font-inter)]">
-              <li>
-                <a href="#" className="text-[#E0E0E0]/70 hover:text-[#FF5F1F] transition-colors">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-[#E0E0E0]/70 hover:text-[#FF5F1F] transition-colors">
-                  Terms of Use
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-[#E0E0E0]/70 hover:text-[#FF5F1F] transition-colors">
-                  Returns & Exchanges
-                </a>
-              </li>
-            </ul>
-          </div>
+          
         </div>
 
         {/* Bottom bar */}
